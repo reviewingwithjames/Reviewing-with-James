@@ -1,20 +1,14 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('nav a');
-    const main = document.querySelector('main');
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            const targetPage = link.id + '.html'; // Assume your content files are named home.html, about.html, etc.
-            loadPage(targetPage);
-        });
+navLinks.forEach(link => {
+    link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const targetPage = link.id + '.html'; // Assume your content files are named home.html, about.html, etc.
+        loadPage(targetPage);
+        history.pushState(null, null, targetPage); // Update the URL
     });
+});
 
-    function loadPage(page) {
-        fetch(page)
-            .then(response => response.text())
-            .then(data => {
-                main.innerHTML = data;
-            });
-    }
+// Add a popstate event listener to handle back and forward navigation
+window.addEventListener('popstate', function (event) {
+    const targetPage = location.pathname.replace('.html', '');
+    loadPage(targetPage);
 });
