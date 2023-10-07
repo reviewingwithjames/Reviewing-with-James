@@ -57,6 +57,18 @@ p {
     color: #fff;
 }
 
+/* Reduce margin for list items within ul */
+ul li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px; /* Adjust this value as needed */
+}
+
+/* Add margin-left to the specific article link */
+ul li a[href="blog/secondarticle.html"] {
+    margin-left: 10px; /* Adjust this value as needed */
+}
+
 .read-more {
     display: inline-block;
     padding: 10px 20px;
