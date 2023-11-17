@@ -73,3 +73,15 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Responsive ad container */
+.ad-container {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .ad-container {
+        width: 100%;
+        height: auto;
+    }
+}
