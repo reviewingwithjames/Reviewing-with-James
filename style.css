@@ -73,17 +73,3 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
-/* Responsive ad container */
-.ad-container {
-    max-width: 100%;
-}
-
-/* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-    .ad-container {
-        width: 100%;
-        max-height: 200px; /* Adjust the maximum height as needed */
-        overflow: hidden; /* Hide any content that exceeds the specified height */
-    }
-}
