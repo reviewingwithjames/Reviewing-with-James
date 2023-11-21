@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creepers, Skeletons, and Ghasts, Oh My! | 11/20/23</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+    <header>
+        <!-- Your header content here -->
+    </header>
+    
+    <nav>
+        <!-- Your navigation menu here -->
+    </nav>
+    
+    <main>
+        <article>
+            <h1>Creepers, Skeletons, and Ghasts, Oh My! | 11/20/23</h1>
+            
+            <p>Oh yeah everyone, it’s finally that time! Time to get out your favorite device, whether it’s an <em>iPhone, iPad, Android, PC, Mac, Linux, Chromebook,</em> etc. You name it! It’s time to play a classic sandbox game called <em>Minecraft</em>.</p>
+            
+            <img src="https://cdn.pixabay.com/photo/2015/12/23/22/36/minecraft-1106252_1280.jpg" alt=“Minecraft” width="400" height="300">
+            
+            <p>Now for those of you who don’t know, Minecraft is an old but still very popular game. It was released on <em>November 18, 2011</em>. I remember it like it was yesterday. So after purchasing Minecraft through their store for a one time fee and installing the game, you are prompted with the main menu, where you can select options such as <em>Single Player</em>, <em>Multiplayer</em>, <em>Options</em> and <em>Quit Game</em>. It was very user friendly.</p>
+            
+            <p>Single Player mode allows to do as you please without worrying about effecting other people. Within this mode, you can either play <em>Survival mode</em> or <em>Creative mode</em>. In Survival mode, players have limited resources and have to gather things in order to survive. For example, a player must collect wood from trees so that they can build a house. Another example would be to hunt animals to gather food. Also, every player has a health bar as well as a food bar! The health bar indicates the player’s remaining hit points, while the food bar measures a player’s hunger level.</p>
+
+            <p>In Multiplayer mode, there is also Survival and Creative mode. However, this time around you playing with other people. You can do the same things that I mentioned above, but you won’t be alone. Furthermore, users can join other people’s custom servers. People build worlds for others to play that don’t require the need to collect wood necessarily. For example, someone may build a replica of <em>The Magic Kingdom</em> at <em>Walt Disney World</em>. Someone else might build a PvP server, which stands for Player Versus Player. These games serve a different purpose and are not the traditional Creative/Survival servers.</p>
+
+            <p>There is another part of Minecraft that is important. The game would not be complete without Mobs. While I briefly mentioned animals earlier, I didn’t go into specifics. A Mob refers to mobile entities or creatures within the game. They can be animals, but they could also be monsters, or other Non Playable Characters (NPCs). Examples of Mobs include: <em>Cows, Pigs, Sheep, Zombies, Skeletons, Creepers,</em> and <em>Spiders</em>. Keep in mind that the monsters are hostile, they pose a threat towards players and can damage your in-game health.</p>
+
+            <p>I really enjoy Minecraft, which is one of the reasons why I decided to write about it. It is such a relaxing game. I don’t dislike anything about it. From building roller coasters to fighting Zombies with weapons, it’s a game that will last a lifetime! By the way, did you know that the entirety of Minecraft is squares? That’s the only shape in the game, another reason why I love it so much! </p>
+
+	   <p>Wow, if you’ve managed to make it this far, I applaud you. You’re ready to start playing Minecraft. <b>There’s just one problem, I just can’t seem to remember where I put my torches…</b></p>
+
+            
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Reviewing with James. All rights reserved.</p>
+    </footer>
+</body>
+</html>
