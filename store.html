@@ -6,6 +6,26 @@
     <title>Reviewing with James</title>
     <!-- Corrected link to the style.css file -->
     <link rel="stylesheet" href="style.css">
+    <script> 
+        document.getElementById('viewMoreButton').addEventListener('click', function() {
+    // Get the container for additional products
+    var additionalProductsContainer = document.getElementById('additionalProducts');
+
+    // Simulate adding 6 more products (example)
+    for (var i = 5; i <= 10; i++) {
+        var newProduct = document.createElement('div');
+        newProduct.classList.add('product');
+        newProduct.innerHTML = 'Product ' + i + ' details';
+        additionalProductsContainer.appendChild(newProduct);
+    }
+
+    // Display the additional products
+    additionalProductsContainer.style.display = 'block';
+
+    // Hide the "View More" button after loading additional products
+    this.style.display = 'none';
+});
+    </script>
     
 </head>
 <body>
