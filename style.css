@@ -7,13 +7,13 @@ body, h1, h2, p {
 /* Basic styling */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #0a0a2a; /* Dark blue background for a futuristic feel */
-    color: #ccc; /* Light gray text for contrast */
+    background-color: #070721; /* Dark blue background for a vibrant feel */
+    color: #fff; /* White text for contrast */
     line-height: 1.6;
 }
 
 header {
-    background-color: #001f3f; /* Dark blue header */
+    background-color: #0048b7; /* Vibrant blue header */
     text-align: center;
     padding: 20px;
     color: #fff;
@@ -21,7 +21,7 @@ header {
 
 nav ul {
     list-style-type: none;
-    background-color: #001f3f; /* Dark blue navigation */
+    background-color: #0048b7; /* Vibrant blue navigation */
     text-align: center;
     padding: 10px;
 }
@@ -33,14 +33,14 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #66ccff; /* Light blue for navigation links */
+    color: #00aaff; /* Bright blue for navigation links */
     font-weight: bold;
     font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
-    color: #99ccff; /* Hover effect for navigation links */
+    color: #66d9ff; /* Hover effect for navigation links */
 }
 
 .main-content {
@@ -57,7 +57,7 @@ article {
 }
 
 h2 {
-    color: #66ccff; /* Light blue headings */
+    color: #00aaff; /* Bright blue headings */
     font-size: 2rem;
 }
 
@@ -70,7 +70,7 @@ p {
 .read-more {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #66ccff; /* Light blue button */
+    background-color: #00aaff; /* Bright blue button */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -79,11 +79,11 @@ p {
 }
 
 .read-more:hover {
-    background-color: #99ccff; /* Hover effect for buttons */
+    background-color: #66d9ff; /* Hover effect for buttons */
 }
 
 footer {
-    background-color: #001f3f; /* Dark blue footer */
+    background-color: #0048b7; /* Vibrant blue footer */
     color: #fff;
     text-align: center;
     padding: 20px 0;
