@@ -50,8 +50,4 @@ nav a:hover {
     color: #ffcc00;
 }
 
-/* Remove underlines from images within anchor tags */
-nav a img {
-    border: none;
-    text-decoration: none;
-}
+/* ... (rest of your CSS remains unchanged) ... */
