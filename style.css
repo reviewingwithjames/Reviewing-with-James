@@ -1,4 +1,4 @@
-/* Reset some default styles */
+To remove blue lines underneath /* Reset some default styles */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -44,9 +44,13 @@ nav a {
     font-weight: bold;
     font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
-    outline: none; /* This line removes the blue outlines */
 }
 
 nav a:hover {
     color: #ffcc00;
+}
+
+/* Remove underlines from links */
+a {
+    text-decoration: none;
 }
