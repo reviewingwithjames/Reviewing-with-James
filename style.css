@@ -21,11 +21,6 @@ header {
     padding: 20px 0;
 }
 
-/* Set the header text color to white */
-header h1 {
-    color: #fff;
-}
-
 nav ul {
     list-style-type: none;
     background-color: #0078d4;
@@ -50,4 +45,49 @@ nav a:hover {
     color: #ffcc00;
 }
 
-/* ... (rest of your CSS remains unchanged) ... */
+.main-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0078d4;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #444;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    background-color: #005a9e;
+}
+
+footer {
+    background-color: #0078d4;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
