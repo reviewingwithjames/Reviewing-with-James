@@ -44,9 +44,14 @@ nav a {
     font-weight: bold;
     font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
-    outline: none; /* This line removes the blue outlines */
 }
 
 nav a:hover {
     color: #ffcc00;
+}
+
+/* Remove underlines from images within anchor tags */
+nav a img {
+    border: none;
+    text-decoration: none;
 }
