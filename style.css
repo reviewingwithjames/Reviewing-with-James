@@ -13,15 +13,15 @@ body {
 }
 
 header {
-    background-color: #222;
+    background-color: #0078d4; /* Blue background */
     text-align: center;
     padding: 20px;
-    color: #fff;
+    color: #fff; /* White text */
 }
 
 nav ul {
     list-style-type: none;
-    background-color: #444;
+    background-color: #0078d4; /* Blue background */
     text-align: center;
     padding: 10px;
 }
@@ -33,14 +33,14 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #fff; /* White text */
     font-weight: bold;
     font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
-    color: #ffd700; /* Change to a different color on hover */
+    color: #ffd700; /* Different color on hover */
 }
 
 .main-content {
@@ -57,7 +57,7 @@ article {
 }
 
 h2 {
-    color: #222;
+    color: #0078d4; /* Blue color */
     font-size: 2rem;
     margin-bottom: 15px;
 }
@@ -71,8 +71,8 @@ p {
 .read-more {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #444;
-    color: #fff;
+    background-color: #0078d4; /* Blue background */
+    color: #fff; /* White text */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -80,12 +80,12 @@ p {
 }
 
 .read-more:hover {
-    background-color: #ff6347; /* Change to a different color on hover */
+    background-color: #ff6347; /* Different color on hover */
 }
 
 footer {
-    background-color: #0078d4; /* Blue color */
-    color: #fff;
+    background-color: #0078d4; /* Blue background */
+    color: #fff; /* White text */
     text-align: center;
     padding: 20px 0;
 }
