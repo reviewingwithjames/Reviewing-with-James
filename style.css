@@ -89,3 +89,8 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Additional CSS for Instagram link */
+.instagram-link {
+    text-decoration: none; /* Remove underlines only from the Instagram link */
+}
