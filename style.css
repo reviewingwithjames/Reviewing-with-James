@@ -91,6 +91,6 @@ footer {
 }
 
 /* Additional CSS for Instagram link */
-.instagram-link {
+.main-content a.instagram-link {
     text-decoration: none; /* Remove underlines only from the Instagram link */
 }
