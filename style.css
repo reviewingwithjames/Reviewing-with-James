@@ -2,31 +2,35 @@
 body, h1, h2, p {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Basic styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #0078d4;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 nav ul {
     list-style-type: none;
     background-color: #0078d4;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 nav a {
@@ -34,27 +38,36 @@ nav a {
     color: #fff;
     font-weight: bold;
     font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
 }
 
 .main-content {
     text-align: center;
-    padding: 40px;
+    padding: 40px 20px;
 }
 
 article {
-    background-color: #333;
+    background-color: #fff;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     color: #0078d4;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
 }
 
 p {
-    color: #fff;
+    color: #444;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
 .read-more {
@@ -65,11 +78,16 @@ p {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    background-color: #005a9e;
 }
 
 footer {
     background-color: #0078d4;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 15px 0;
 }
