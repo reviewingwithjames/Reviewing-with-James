@@ -94,20 +94,3 @@ footer {
 .main-content a.instagram-link {
     text-decoration: none; /* Remove underlines only from the Instagram link */
 }
-
-/* Additional style for Buy on Amazon buttons */
-.amazon-button {
-    background-color: black;
-    color: white; /* Change text color to contrast with the black background */
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.amazon-button:hover {
-    background-color: #333; /* Different color on hover, adjust as needed */
-    color: white; /* Text color on hover */
-}
